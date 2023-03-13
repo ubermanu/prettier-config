@@ -1,15 +1,13 @@
 lockfileVersion: 5.4
 
 specifiers:
-  prettier: ^2.8.4
+  try-require: ^1.2.1
 
-devDependencies:
-  prettier: 2.8.4
+dependencies:
+  try-require: 1.2.1
 
 packages:
 
-  /prettier/2.8.4:
-    resolution: {integrity: sha512-vIS4Rlc2FNh0BySk3Wkd6xmwxB0FpOndW5fisM5H8hsZSxU2VWVB5CWIkIjWvrHjIhxk2g3bfMKM87zNTrZddw==}
-    engines: {node: '>=10.13.0'}
-    hasBin: true
-    dev: true
+  /try-require/1.2.1:
+    resolution: {integrity: sha512-aMzrGUIA/R2LwUgvsOusx+GTy8ERyNjpBzbWgS1Qx4oTFlXCMxY3PyyXbPE1pvrvK/CXpO+BBREEqrTkNroC+A==}
+    dev: false

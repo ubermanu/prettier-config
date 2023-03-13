@@ -14,9 +14,10 @@
   "author": "Emmanuel Vodor <manu@paca.happy-dev.fr>",
   "license": "MIT",
   "peerDependencies": {
-    "prettier": "*"
+    "prettier": "^2.8.4",
+    "prettier-plugin-svelte": "^2.9.0"
   },
-  "devDependencies": {
-    "prettier": "^2.8.4"
+  "dependencies": {
+    "try-require": "^1.2.1"
   }
 }

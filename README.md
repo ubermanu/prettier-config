@@ -8,6 +8,12 @@ This is my personal prettier config.
 pnpm i @ubermanu/prettier-config prettier -D
 ```
 
+#### With Svelte
+
+```bash
+pnpm i prettier-plugin-svelte -D
+```
+
 ## Usage
 
 In your `package.json`:

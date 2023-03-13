@@ -1,0 +1,22 @@
+{
+  "name": "@ubermanu/prettier-config",
+  "version": "1.0.0",
+  "description": "My own Prettier config",
+  "type": "commonjs",
+  "main": "prettier.config.cjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "prettier",
+    "config"
+  ],
+  "author": "Emmanuel Vodor <manu@paca.happy-dev.fr>",
+  "license": "MIT",
+  "peerDependencies": {
+    "prettier": "*"
+  },
+  "devDependencies": {
+    "prettier": "^2.8.4"
+  }
+}

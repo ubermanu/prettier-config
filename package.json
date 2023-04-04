@@ -6,6 +6,10 @@
     "prettier",
     "config"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ubermanu/prettier-config.git"
+  },
   "license": "MIT",
   "author": "Emmanuel Vodor <manu@paca.happy-dev.fr>",
   "type": "commonjs",
@@ -29,5 +33,8 @@
   },
   "peerDependencies": {
     "prettier": "2.x"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }

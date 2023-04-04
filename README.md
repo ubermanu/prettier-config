@@ -17,6 +17,7 @@ This is my personal prettier config.
 - CSS property sorting
 - Import sorting
 - Package.json sorting
+- JSDoc formatting
 
 ## Install
 

@@ -11,6 +11,7 @@ const config = {
     'prettier-plugin-packagejson',
     'prettier-plugin-organize-imports',
     'prettier-plugin-css-order',
+    'prettier-plugin-jsdoc',
   ],
   pluginSearchDirs: ['.'],
   overrides: [],

@@ -1,7 +1,7 @@
 {
   "name": "@ubermanu/prettier-config",
   "version": "1.6.0",
-  "description": "My own Prettier config",
+  "description": "My prettier config with preconfigured plugins",
   "keywords": [
     "prettier",
     "config"

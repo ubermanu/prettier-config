@@ -2,22 +2,32 @@
   "name": "@ubermanu/prettier-config",
   "version": "1.0.0",
   "description": "My own Prettier config",
-  "type": "commonjs",
-  "main": "prettier.config.cjs",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "keywords": [
     "prettier",
     "config"
   ],
-  "author": "Emmanuel Vodor <manu@paca.happy-dev.fr>",
   "license": "MIT",
-  "peerDependencies": {
-    "prettier": "^2.8.4",
-    "prettier-plugin-svelte": "^2.9.0"
+  "author": "Emmanuel Vodor <manu@paca.happy-dev.fr>",
+  "type": "commonjs",
+  "main": "prettier.config.cjs",
+  "files": [
+    "prettier.config.cjs"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "try-require": "^1.2.1"
+    "postcss": "^8.4.21",
+    "prettier-plugin-css-order": "^1.3.0",
+    "prettier-plugin-organize-imports": "^3.2.2",
+    "prettier-plugin-packagejson": "^2.4.3",
+    "try-require": "^1.2.1",
+    "typescript": "^5.0.3"
+  },
+  "devDependencies": {
+    "prettier": "^2.8.7"
+  },
+  "peerDependencies": {
+    "prettier": "2.x"
   }
 }

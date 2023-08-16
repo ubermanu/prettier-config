@@ -33,7 +33,7 @@
     "prettier": "^3.0.2"
   },
   "peerDependencies": {
-    "prettier": "2.x"
+    "prettier": "3.x"
   },
   "publishConfig": {
     "access": "public"

@@ -23,7 +23,7 @@
   "dependencies": {
     "postcss": "^8.4.28",
     "prettier-plugin-css-order": "^2.0.0",
-    "prettier-plugin-jsdoc": "^0.4.2",
+    "prettier-plugin-jsdoc": "^1.0.1",
     "prettier-plugin-organize-imports": "^3.2.3",
     "prettier-plugin-packagejson": "^2.4.5",
     "try-require": "^1.2.1",

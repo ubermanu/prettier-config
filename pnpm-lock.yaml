@@ -12,8 +12,8 @@ dependencies:
     specifier: ^2.0.0
     version: 2.0.0(postcss@8.4.28)(prettier@3.0.2)
   prettier-plugin-jsdoc:
-    specifier: ^0.4.2
-    version: 0.4.2(prettier@3.0.2)
+    specifier: ^1.0.1
+    version: 1.0.1(prettier@3.0.2)
   prettier-plugin-organize-imports:
     specifier: ^3.2.3
     version: 3.2.3(prettier@3.0.2)(typescript@5.1.6)
@@ -726,11 +726,11 @@ packages:
       - postcss
     dev: false
 
-  /prettier-plugin-jsdoc@0.4.2(prettier@3.0.2):
-    resolution: {integrity: sha512-w2jnAQm3z0GAG0bhzVJeehzDtrhGMSxJjit5ApCc2oxWfc7+jmLAkbtdOXaSpfwZz3IWkk+PiQPeRrLNpbM+Mw==}
-    engines: {node: '>=12.0.0'}
+  /prettier-plugin-jsdoc@1.0.1(prettier@3.0.2):
+    resolution: {integrity: sha512-07q74MfX9m+xHK2+Lr4c+igiEzAKVDWhqkvlm65WoYJUlRiaV6STXcEtcZMhrPPYgNeQRgb9FJmgE/n+OI4MpQ==}
+    engines: {node: '>=14.13.1 || >=16.0.0'}
     peerDependencies:
-      prettier: '>=2.1.2'
+      prettier: ^3.0.0
     dependencies:
       binary-searching: 2.0.5
       comment-parser: 1.4.0

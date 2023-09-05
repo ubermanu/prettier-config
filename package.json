@@ -21,17 +21,17 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "postcss": "^8.4.28",
+    "postcss": "^8.4.29",
     "prettier-plugin-css-order": "^2.0.0",
     "prettier-plugin-jsdoc": "^1.0.1",
     "prettier-plugin-organize-imports": "^3.2.3",
     "prettier-plugin-packagejson": "^2.4.5",
     "try-require": "^1.2.1",
-    "typescript": "^5.1.6"
+    "typescript": "^5.2.2"
   },
   "devDependencies": {
     "@types/node": "^20.5.9",
-    "prettier": "^3.0.2"
+    "prettier": "^3.0.3"
   },
   "peerDependencies": {
     "prettier": "3.x",

@@ -1,6 +1,6 @@
 const tryRequire = require('try-require')
 const svelte = tryRequire.resolve('prettier-plugin-svelte')
-const tailwind = tryRequire.resolve('prettier-plugin-tailwind')
+const tailwind = tryRequire.resolve('prettier-plugin-tailwindcss')
 
 const config = {
   trailingComma: 'es5',

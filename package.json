@@ -30,10 +30,21 @@
     "typescript": "^5.1.6"
   },
   "devDependencies": {
+    "@types/node": "^20.5.9",
     "prettier": "^3.0.2"
   },
   "peerDependencies": {
-    "prettier": "3.x"
+    "prettier": "3.x",
+    "prettier-plugin-svelte": "*",
+    "prettier-plugin-tailwindcss": "*"
+  },
+  "peerDependenciesMeta": {
+    "prettier-plugin-svelte": {
+      "optional": true
+    },
+    "prettier-plugin-tailwindcss": {
+      "optional": true
+    }
   },
   "publishConfig": {
     "access": "public"

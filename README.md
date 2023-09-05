@@ -25,6 +25,8 @@ This is my personal prettier config.
 pnpm i @ubermanu/prettier-config prettier -D
 ```
 
+You can also install the following plugins (automatically detected):
+
 #### With Svelte
 
 ```bash
@@ -34,7 +36,7 @@ pnpm i prettier-plugin-svelte -D
 #### With Tailwind
 
 ```bash
-pnpm i prettier-plugin-tailwind -D
+pnpm i prettier-plugin-tailwindcss -D
 ```
 
 ## Usage

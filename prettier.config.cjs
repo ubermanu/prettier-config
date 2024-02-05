@@ -2,6 +2,7 @@ const tryRequire = require('try-require')
 const svelte = tryRequire.resolve('prettier-plugin-svelte')
 const tailwind = tryRequire.resolve('prettier-plugin-tailwindcss')
 
+/** @type {import('prettier').Options} */
 const config = {
   trailingComma: 'es5',
   tabWidth: 2,
@@ -13,7 +14,6 @@ const config = {
     'prettier-plugin-css-order',
     'prettier-plugin-jsdoc',
   ],
-  pluginSearchDirs: ['.'],
   overrides: [],
 }
 

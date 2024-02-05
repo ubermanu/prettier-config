@@ -1,6 +1,6 @@
 {
   "name": "@ubermanu/prettier-config",
-  "version": "3.2.0",
+  "version": "3.3.0",
   "description": "My prettier config with preconfigured plugins",
   "keywords": [
     "prettier",
@@ -11,7 +11,7 @@
     "url": "https://github.com/ubermanu/prettier-config.git"
   },
   "license": "MIT",
-  "author": "Emmanuel Vodor <manu@paca.happy-dev.fr>",
+  "author": "Emmanuel Vodor <emmanuel.vodor@proton.me>",
   "type": "commonjs",
   "main": "prettier.config.cjs",
   "files": [

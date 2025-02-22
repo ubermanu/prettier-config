@@ -9,10 +9,10 @@ const config = {
   semi: false,
   singleQuote: true,
   plugins: [
-    'prettier-plugin-packagejson',
-    'prettier-plugin-organize-imports',
-    'prettier-plugin-css-order',
-    'prettier-plugin-jsdoc',
+    require.resolve('prettier-plugin-packagejson'),
+    require.resolve('prettier-plugin-organize-imports'),
+    require.resolve('prettier-plugin-css-order'),
+    require.resolve('prettier-plugin-jsdoc'),
   ],
   overrides: [],
 }

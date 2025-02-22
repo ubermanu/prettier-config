@@ -1,5 +1,11 @@
 # @ubermanu/prettier-config
 
+## 3.4.1
+
+### Patch Changes
+
+- dd99a8b: chore: npm version mismatch
+
 ## 3.4.0
 
 ### Minor Changes

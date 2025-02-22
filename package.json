@@ -30,11 +30,11 @@
     "typescript": "^5"
   },
   "devDependencies": {
-    "@types/node": "^22.1.0",
-    "prettier": "^3.0.3"
+    "@types/node": "^22",
+    "prettier": "^3"
   },
   "peerDependencies": {
-    "prettier": "3.x",
+    "prettier": "^3",
     "prettier-plugin-svelte": "*",
     "prettier-plugin-tailwindcss": "*"
   },

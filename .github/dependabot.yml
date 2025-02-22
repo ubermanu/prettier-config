@@ -14,9 +14,9 @@ updates:
     schedule:
       interval: 'weekly'
     ignore:
-      - dependency-name: "@types/node"
+      - dependency-name: '@types/node'
     groups:
       production-dependencies:
-          dependency-type: 'production'
+        dependency-type: 'production'
       development-dependencies:
-          dependency-type: 'development'
+        dependency-type: 'development'

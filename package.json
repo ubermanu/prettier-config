@@ -1,7 +1,7 @@
 {
   "name": "@ubermanu/prettier-config",
   "version": "3.3.0",
-  "description": "My prettier config with preconfigured plugins",
+  "description": "A prettier config with preconfigured plugins",
   "keywords": [
     "prettier",
     "config"
@@ -18,7 +18,7 @@
     "prettier.config.cjs"
   ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "format": "prettier -w ."
   },
   "dependencies": {
     "postcss": "^8.4.29",
@@ -27,7 +27,7 @@
     "prettier-plugin-organize-imports": "^4.0.0",
     "prettier-plugin-packagejson": "^2.4.5",
     "try-require": "^1.2.1",
-    "typescript": "^5.2.2"
+    "typescript": "^5"
   },
   "devDependencies": {
     "@types/node": "^22.1.0",

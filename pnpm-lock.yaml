@@ -10,10 +10,10 @@ importers:
     dependencies:
       postcss:
         specifier: ^8.4.29
-        version: 8.5.3
+        version: 8.5.4
       prettier-plugin-css-order:
         specifier: ^2.0.0
-        version: 2.1.2(postcss@8.5.3)(prettier@3.5.3)
+        version: 2.1.2(postcss@8.5.4)(prettier@3.5.3)
       prettier-plugin-jsdoc:
         specifier: ^1.0.1
         version: 1.3.2(prettier@3.5.3)
@@ -22,13 +22,13 @@ importers:
         version: 4.1.0(prettier@3.5.3)(typescript@5.8.3)
       prettier-plugin-packagejson:
         specifier: ^2.4.5
-        version: 2.5.11(prettier@3.5.3)
+        version: 2.5.15(prettier@3.5.3)
       prettier-plugin-svelte:
         specifier: '*'
         version: 3.0.3(prettier@3.5.3)(svelte@4.2.0)
       prettier-plugin-tailwindcss:
         specifier: '*'
-        version: 0.5.4(prettier-plugin-css-order@2.1.2(postcss@8.5.3)(prettier@3.5.3))(prettier-plugin-jsdoc@1.3.2(prettier@3.5.3))(prettier-plugin-organize-imports@4.1.0(prettier@3.5.3)(typescript@5.8.3))(prettier-plugin-svelte@3.0.3(prettier@3.5.3)(svelte@4.2.0))(prettier@3.5.3)
+        version: 0.5.4(prettier-plugin-css-order@2.1.2(postcss@8.5.4)(prettier@3.5.3))(prettier-plugin-jsdoc@1.3.2(prettier@3.5.3))(prettier-plugin-organize-imports@4.1.0(prettier@3.5.3)(typescript@5.8.3))(prettier-plugin-svelte@3.0.3(prettier@3.5.3)(svelte@4.2.0))(prettier@3.5.3)
       try-require:
         specifier: ^1.2.1
         version: 1.2.1
@@ -147,8 +147,8 @@ packages:
     resolution: {integrity: sha512-oGB+UxlgWcgQkgwo8GcEGwemoTFt3FIO9ababBmaGwXIoBKZ+GTy0pP185beGg7Llih/NSHSV2XAs1lnznocSg==}
     engines: {node: '>= 8'}
 
-  '@pkgr/core@0.2.4':
-    resolution: {integrity: sha512-ROFF39F6ZrnzSUEmQQZUar0Jt4xVoP9WnDRdWwF4NNcXs3xBTLgBUDoOwW141y1jP+S8nahIbdxbFC7IShw9Iw==}
+  '@pkgr/core@0.2.7':
+    resolution: {integrity: sha512-YLT9Zo3oNPJoBjBc4q8G2mjU4tqIbf5CEOORbUUr48dCD9q3umJ3IPlVqOqDakPfd2HuwccBaqlGhN4Gmr5OWg==}
     engines: {node: ^12.20.0 || ^14.18.0 || >=16.0.0}
 
   '@types/debug@4.1.12':
@@ -301,8 +301,8 @@ packages:
   fastq@1.19.1:
     resolution: {integrity: sha512-GwLTyxkCXjXbxqIhTsMI2Nui8huMPtnxg7krajPJAjnEG/iiOS7i+zCtWGZR9G0NBKbXKh6X9m9UIsYX/N6vvQ==}
 
-  fdir@6.4.4:
-    resolution: {integrity: sha512-1NZP+GK4GfuAv3PqKvxQRDMjdSRZjnkq7KfhlNrCNNlZ0ygQFpebfrnfnq/W7fpUnAv9aGWmY1zKx7FYL3gwhg==}
+  fdir@6.4.5:
+    resolution: {integrity: sha512-4BG7puHpVsIYxZUbiUE3RqGloLaSSwzYie5jvasC4LWuBWzZawynvYouhjbQKw2JuIGYdm0DzIxl8iVidKlUEw==}
     peerDependencies:
       picomatch: ^3 || ^4
     peerDependenciesMeta:
@@ -489,8 +489,8 @@ packages:
   ms@2.1.3:
     resolution: {integrity: sha512-6FlzubTLZG3J2a/NVCAleEhjzq5oxgHyaCU9yYXvcLsvoVaHJq/s5xXI6/XXP6tz7R9xAOtHnSO/tXtF3WRTlA==}
 
-  nanoid@3.3.8:
-    resolution: {integrity: sha512-WNLf5Sd8oZxOm+TzppcYk8gVOgP+l58xNy58D0nbUnOxOWRWvlcCV4kUF7ltmI6PsrLl/BgKEyS4mqsGChFN0w==}
+  nanoid@3.3.11:
+    resolution: {integrity: sha512-N8SpfPUnUp1bK+PMYW8qSWdl9U+wwNWI4QKxOYDy9JAro3WMX7p2OeVRF9v+347pnakNevPmiHhNmZ2HbFA76w==}
     engines: {node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1}
     hasBin: true
 
@@ -566,8 +566,8 @@ packages:
     peerDependencies:
       postcss: ^8.4.29
 
-  postcss@8.5.3:
-    resolution: {integrity: sha512-dle9A3yYxlBSrt8Fu+IpjGT8SY8hN0mlaA6GY8t0P5PjIOZemULz/E2Bnm/2dcUOena75OTNkHI76uZBNUUq3A==}
+  postcss@8.5.4:
+    resolution: {integrity: sha512-QSa9EBe+uwlGTFmHsPKokv3B/oEMQZxfqW0QqNCyhpa6mB1afzulwn8hihglqAb2pOw+BJgNlmXQ8la2VeHB7w==}
     engines: {node: ^10 || ^12 || >=14}
 
   prettier-plugin-css-order@2.1.2:
@@ -592,8 +592,8 @@ packages:
       vue-tsc:
         optional: true
 
-  prettier-plugin-packagejson@2.5.11:
-    resolution: {integrity: sha512-BJpXSrQhrewmeRxe1e/BYrWyrBG4yc+RaearWGdNwcUnHZQUffFVqPsXyB7tQA7WFeBRgh3wadXb9p2BPuLKvw==}
+  prettier-plugin-packagejson@2.5.15:
+    resolution: {integrity: sha512-2QSx6y4IT6LTwXtCvXAopENW5IP/aujC8fobEM2pDbs0IGkiVjW/ipPuYAHuXigbNe64aGWF7vIetukuzM3CBw==}
     peerDependencies:
       prettier: '>= 1.16.0'
     peerDependenciesMeta:
@@ -697,6 +697,11 @@ packages:
     engines: {node: '>=10'}
     hasBin: true
 
+  semver@7.7.2:
+    resolution: {integrity: sha512-RF0Fw+rO5AMf9MAyaRXI4AV0Ulj5lMHqVxxdSgiVbixSCXoEmmX/jk0CuJw4+3SqroYO9VoUh+HcuJivvtJemA==}
+    engines: {node: '>=10'}
+    hasBin: true
+
   shebang-command@2.0.0:
     resolution: {integrity: sha512-kHxr2zZpYtdmrN1qDjrrX/Z1rR1kG8Dx+gkpK1G4eXmvXswmcE1hTWBWYUzlraYw1/yZp6YuDY77YtvbN0dmDA==}
     engines: {node: '>=8'}
@@ -716,8 +721,8 @@ packages:
   sort-object-keys@1.1.3:
     resolution: {integrity: sha512-855pvK+VkU7PaKYPc+Jjnmt4EzejQHyhhF33q31qG8x7maDzkeFhAAThdCYay11CISO+qAMwjOBP+fPZe0IPyg==}
 
-  sort-package-json@3.2.0:
-    resolution: {integrity: sha512-jadbj4vvIlevL578X5+1qVX/Nn9Jk7/U+cLVjR1IqfDFo3ISY0eoyksd3ylyTwGunlEMUgbTRYowLr0CkSxcQw==}
+  sort-package-json@3.2.1:
+    resolution: {integrity: sha512-rTfRdb20vuoAn7LDlEtCqOkYfl2X+Qze6cLbNOzcDpbmKEhJI30tTN44d5shbKJnXsvz24QQhlCm81Bag7EOKg==}
     hasBin: true
 
   source-map-js@1.2.1:
@@ -742,16 +747,16 @@ packages:
     resolution: {integrity: sha512-kVsdPjDbLrv74SmLSUzAsBGquMs4MPgWGkGLpH+PjOYnFOziAvENVzgJmyOCV2gntxE32aNm8/sqNKD6LbIpeQ==}
     engines: {node: '>=16'}
 
-  synckit@0.11.4:
-    resolution: {integrity: sha512-Q/XQKRaJiLiFIBNN+mndW7S/RHxvwzuZS6ZwmRzUBqJBv/5QIKCEwkBC8GBf8EQJKYnaFs0wOZbKTXBPj8L9oQ==}
+  synckit@0.11.8:
+    resolution: {integrity: sha512-+XZ+r1XGIJGeQk3VvXhT6xx/VpbHsRzsTkGgF6E5RX9TTXD0118l87puaEBZ566FhqblC6U0d4XnubznJDm30A==}
     engines: {node: ^14.18.0 || >=16.0.0}
 
   term-size@2.2.1:
     resolution: {integrity: sha512-wK0Ri4fOGjv/XPy8SBHZChl8CM7uMc5VML7SqiQ0zG7+J5Vr+RMQDoHa2CNT6KHUnTGIXH34UDMkPzAUyapBZg==}
     engines: {node: '>=8'}
 
-  tinyglobby@0.2.13:
-    resolution: {integrity: sha512-mEwzpUgrLySlveBwEVDMKk5B57bhLPYovRfPAXD5gA/98Opn0rCDj3GtLwFvCvH5RK9uPCExUROW5NjDwvqkxw==}
+  tinyglobby@0.2.14:
+    resolution: {integrity: sha512-tX5e7OM1HnYr2+a2C/4V0htOcSQcoSTH9KgJnVvNm5zm/cyEWKJ7j7YutsH9CxMdtOkkLFy2AHrMci9IM8IPZQ==}
     engines: {node: '>=12.0.0'}
 
   tmp@0.0.33:
@@ -764,9 +769,6 @@ packages:
 
   try-require@1.2.1:
     resolution: {integrity: sha512-aMzrGUIA/R2LwUgvsOusx+GTy8ERyNjpBzbWgS1Qx4oTFlXCMxY3PyyXbPE1pvrvK/CXpO+BBREEqrTkNroC+A==}
-
-  tslib@2.8.1:
-    resolution: {integrity: sha512-oJFu94HQb+KVduSUQL7wnpmqnfmLsOA/nAh6b6EH0wCEoK0/mPeXU6c3wKDV83MkOuHPRHtSXKKU99IBazS/2w==}
 
   typescript@5.8.3:
     resolution: {integrity: sha512-p1diW6TqL9L07nNxvRMM7hMMw4c5XOo/1ibL4aAIGmSAt9slTE1Xgw5KWuof2uTOvCg9BY7ZRi+GaF+7sfgPeQ==}
@@ -984,7 +986,7 @@ snapshots:
       '@nodelib/fs.scandir': 2.1.5
       fastq: 1.19.1
 
-  '@pkgr/core@0.2.4': {}
+  '@pkgr/core@0.2.7': {}
 
   '@types/debug@4.1.12':
     dependencies:
@@ -1058,9 +1060,9 @@ snapshots:
       shebang-command: 2.0.0
       which: 2.0.2
 
-  css-declaration-sorter@7.2.0(postcss@8.5.3):
+  css-declaration-sorter@7.2.0(postcss@8.5.4):
     dependencies:
-      postcss: 8.5.3
+      postcss: 8.5.4
 
   css-tree@2.3.1:
     dependencies:
@@ -1122,7 +1124,7 @@ snapshots:
     dependencies:
       reusify: 1.1.0
 
-  fdir@6.4.4(picomatch@4.0.2):
+  fdir@6.4.5(picomatch@4.0.2):
     optionalDependencies:
       picomatch: 4.0.2
 
@@ -1382,7 +1384,7 @@ snapshots:
 
   ms@2.1.3: {}
 
-  nanoid@3.3.8: {}
+  nanoid@3.3.11: {}
 
   os-tmpdir@1.0.2: {}
 
@@ -1428,25 +1430,25 @@ snapshots:
 
   pify@4.0.1: {}
 
-  postcss-less@6.0.0(postcss@8.5.3):
+  postcss-less@6.0.0(postcss@8.5.4):
     dependencies:
-      postcss: 8.5.3
+      postcss: 8.5.4
 
-  postcss-scss@4.0.9(postcss@8.5.3):
+  postcss-scss@4.0.9(postcss@8.5.4):
     dependencies:
-      postcss: 8.5.3
+      postcss: 8.5.4
 
-  postcss@8.5.3:
+  postcss@8.5.4:
     dependencies:
-      nanoid: 3.3.8
+      nanoid: 3.3.11
       picocolors: 1.1.1
       source-map-js: 1.2.1
 
-  prettier-plugin-css-order@2.1.2(postcss@8.5.3)(prettier@3.5.3):
+  prettier-plugin-css-order@2.1.2(postcss@8.5.4)(prettier@3.5.3):
     dependencies:
-      css-declaration-sorter: 7.2.0(postcss@8.5.3)
-      postcss-less: 6.0.0(postcss@8.5.3)
-      postcss-scss: 4.0.9(postcss@8.5.3)
+      css-declaration-sorter: 7.2.0(postcss@8.5.4)
+      postcss-less: 6.0.0(postcss@8.5.4)
+      postcss-scss: 4.0.9(postcss@8.5.4)
       prettier: 3.5.3
     transitivePeerDependencies:
       - postcss
@@ -1465,10 +1467,10 @@ snapshots:
       prettier: 3.5.3
       typescript: 5.8.3
 
-  prettier-plugin-packagejson@2.5.11(prettier@3.5.3):
+  prettier-plugin-packagejson@2.5.15(prettier@3.5.3):
     dependencies:
-      sort-package-json: 3.2.0
-      synckit: 0.11.4
+      sort-package-json: 3.2.1
+      synckit: 0.11.8
     optionalDependencies:
       prettier: 3.5.3
 
@@ -1477,11 +1479,11 @@ snapshots:
       prettier: 3.5.3
       svelte: 4.2.0
 
-  prettier-plugin-tailwindcss@0.5.4(prettier-plugin-css-order@2.1.2(postcss@8.5.3)(prettier@3.5.3))(prettier-plugin-jsdoc@1.3.2(prettier@3.5.3))(prettier-plugin-organize-imports@4.1.0(prettier@3.5.3)(typescript@5.8.3))(prettier-plugin-svelte@3.0.3(prettier@3.5.3)(svelte@4.2.0))(prettier@3.5.3):
+  prettier-plugin-tailwindcss@0.5.4(prettier-plugin-css-order@2.1.2(postcss@8.5.4)(prettier@3.5.3))(prettier-plugin-jsdoc@1.3.2(prettier@3.5.3))(prettier-plugin-organize-imports@4.1.0(prettier@3.5.3)(typescript@5.8.3))(prettier-plugin-svelte@3.0.3(prettier@3.5.3)(svelte@4.2.0))(prettier@3.5.3):
     dependencies:
       prettier: 3.5.3
     optionalDependencies:
-      prettier-plugin-css-order: 2.1.2(postcss@8.5.3)(prettier@3.5.3)
+      prettier-plugin-css-order: 2.1.2(postcss@8.5.4)(prettier@3.5.3)
       prettier-plugin-jsdoc: 1.3.2(prettier@3.5.3)
       prettier-plugin-organize-imports: 4.1.0(prettier@3.5.3)(typescript@5.8.3)
       prettier-plugin-svelte: 3.0.3(prettier@3.5.3)(svelte@4.2.0)
@@ -1513,6 +1515,8 @@ snapshots:
 
   semver@7.7.1: {}
 
+  semver@7.7.2: {}
+
   shebang-command@2.0.0:
     dependencies:
       shebang-regex: 3.0.0
@@ -1525,15 +1529,15 @@ snapshots:
 
   sort-object-keys@1.1.3: {}
 
-  sort-package-json@3.2.0:
+  sort-package-json@3.2.1:
     dependencies:
       detect-indent: 7.0.1
       detect-newline: 4.0.1
       git-hooks-list: 4.1.1
       is-plain-obj: 4.1.0
-      semver: 7.7.1
+      semver: 7.7.2
       sort-object-keys: 1.1.3
-      tinyglobby: 0.2.13
+      tinyglobby: 0.2.14
 
   source-map-js@1.2.1: {}
 
@@ -1566,16 +1570,15 @@ snapshots:
       magic-string: 0.30.3
       periscopic: 3.1.0
 
-  synckit@0.11.4:
+  synckit@0.11.8:
     dependencies:
-      '@pkgr/core': 0.2.4
-      tslib: 2.8.1
+      '@pkgr/core': 0.2.7
 
   term-size@2.2.1: {}
 
-  tinyglobby@0.2.13:
+  tinyglobby@0.2.14:
     dependencies:
-      fdir: 6.4.4(picomatch@4.0.2)
+      fdir: 6.4.5(picomatch@4.0.2)
       picomatch: 4.0.2
 
   tmp@0.0.33:
@@ -1587,8 +1590,6 @@ snapshots:
       is-number: 7.0.0
 
   try-require@1.2.1: {}
-
-  tslib@2.8.1: {}
 
   typescript@5.8.3: {}
 

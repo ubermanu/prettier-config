@@ -18,8 +18,12 @@
     "prettier.config.cjs"
   ],
   "scripts": {
-    "format": "prettier -w .",
-    "prepublish": "changeset version"
+    "changeset": "changeset",
+    "format": "prettier --write .",
+    "prepare": "husky"
+  },
+  "lint-staged": {
+    "*": "prettier --write --ignore-unknown"
   },
   "dependencies": {
     "postcss": "^8.4.29",
@@ -33,6 +37,8 @@
   "devDependencies": {
     "@changesets/cli": "^2.28.1",
     "@types/node": "^22",
+    "husky": "^9.1.7",
+    "lint-staged": "^16.4.0",
     "prettier": "^3"
   },
   "peerDependencies": {

@@ -1,5 +1,11 @@
 # @ubermanu/prettier-config
 
+## 3.5.0
+
+### Minor Changes
+
+- 6195abb: Update dependencies
+
 ## 3.4.1
 
 ### Patch Changes

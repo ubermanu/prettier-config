@@ -26,20 +26,20 @@
     "*": "prettier --write --ignore-unknown"
   },
   "dependencies": {
-    "postcss": "^8.4.29",
-    "prettier-plugin-css-order": "^2.0.0",
-    "prettier-plugin-jsdoc": "^1.0.1",
-    "prettier-plugin-organize-imports": "^4.0.0",
+    "postcss": "^8.5.13",
+    "prettier-plugin-css-order": "^2.2.0",
+    "prettier-plugin-jsdoc": "^1.8.0",
+    "prettier-plugin-organize-imports": "^4.3.0",
     "prettier-plugin-packagejson": "^3.0.2",
     "try-require": "^1.2.1",
-    "typescript": "^6"
+    "typescript": "^6.0.3"
   },
   "devDependencies": {
-    "@changesets/cli": "^2.28.1",
-    "@types/node": "^22",
+    "@changesets/cli": "^2.31.0",
+    "@types/node": "^24",
     "husky": "^9.1.7",
     "lint-staged": "^16.4.0",
-    "prettier": "^3"
+    "prettier": "^3.8.3"
   },
   "peerDependencies": {
     "prettier": "^3",

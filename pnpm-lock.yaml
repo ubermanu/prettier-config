@@ -13,22 +13,22 @@ importers:
         version: 8.5.19
       prettier-plugin-css-order:
         specifier: ^2.2.0
-        version: 2.2.0(postcss@8.5.19)(prettier@3.9.5)
+        version: 2.2.0(postcss@8.5.19)(prettier@3.9.6)
       prettier-plugin-jsdoc:
         specifier: ^1.8.0
-        version: 1.8.1(prettier@3.9.5)
+        version: 1.8.1(prettier@3.9.6)
       prettier-plugin-organize-imports:
         specifier: ^4.3.0
-        version: 4.3.0(prettier@3.9.5)(typescript@7.0.2)
+        version: 4.3.0(prettier@3.9.6)(typescript@7.0.2)
       prettier-plugin-packagejson:
         specifier: ^3.0.2
-        version: 3.0.2(prettier@3.9.5)
+        version: 3.0.2(prettier@3.9.6)
       prettier-plugin-svelte:
         specifier: '*'
-        version: 3.0.3(prettier@3.9.5)(svelte@4.2.0)
+        version: 3.0.3(prettier@3.9.6)(svelte@4.2.0)
       prettier-plugin-tailwindcss:
         specifier: '*'
-        version: 0.5.4(prettier-plugin-css-order@2.2.0(postcss@8.5.19)(prettier@3.9.5))(prettier-plugin-jsdoc@1.8.1(prettier@3.9.5))(prettier-plugin-organize-imports@4.3.0(prettier@3.9.5)(typescript@7.0.2))(prettier-plugin-svelte@3.0.3(prettier@3.9.5)(svelte@4.2.0))(prettier@3.9.5)
+        version: 0.5.4(prettier-plugin-css-order@2.2.0(postcss@8.5.19)(prettier@3.9.6))(prettier-plugin-jsdoc@1.8.1(prettier@3.9.6))(prettier-plugin-organize-imports@4.3.0(prettier@3.9.6)(typescript@7.0.2))(prettier-plugin-svelte@3.0.3(prettier@3.9.6)(svelte@4.2.0))(prettier@3.9.6)
       try-require:
         specifier: ^1.2.1
         version: 1.2.1
@@ -47,10 +47,10 @@ importers:
         version: 9.1.7
       lint-staged:
         specifier: ^17.1.0
-        version: 17.1.0
+        version: 17.2.0
       prettier:
         specifier: ^3.8.3
-        version: 3.9.5
+        version: 3.9.6
 
 packages:
 
@@ -524,8 +524,8 @@ packages:
   jsonfile@4.0.0:
     resolution: {integrity: sha512-m6F1R3z8jjlf2imQHS2Qez5sjKWQzbuuhuJ/FKYFRZvPE3PuHcSMVZzfsLhGVOkfd20obL5SWEBew5ShlquNxg==}
 
-  lint-staged@17.1.0:
-    resolution: {integrity: sha512-d7UQRu/9ZPgfu4+hu/k0wny5GEaIxo+2jb2LJqQDkE7cHRTm1HGqNUDq5UOwsGPpjpaNAFmgAsYo3TR+i9cSJw==}
+  lint-staged@17.2.0:
+    resolution: {integrity: sha512-FchGnFe4i4B1C/a35SPU9bNGPEHSC1+1iV0plLjzBmKVe9klZrlRfSgK6Cw4VeHyqOXbJUXP0vON61uRftNQ0A==}
     engines: {node: '>=22.22.1'}
     hasBin: true
 
@@ -800,8 +800,8 @@ packages:
     engines: {node: '>=10.13.0'}
     hasBin: true
 
-  prettier@3.9.5:
-    resolution: {integrity: sha512-/FVl766LpUfB5vXgCYOYa0MeV/441Ia99AeICQIQFTY/Nw0roZwULcXpku5i1/m5kt/baz+s4Zogspd839HSMg==}
+  prettier@3.9.6:
+    resolution: {integrity: sha512-OpN0zzVdiaiAhxpuuj5efpIS4sY9j7bY6uR5mnj5yPzGkdkjNKSJeUThPb60Jw29QuAZgA4o+/iB49kFiaBX6g==}
     engines: {node: '>=14'}
     hasBin: true
 
@@ -1409,7 +1409,7 @@ snapshots:
     optionalDependencies:
       graceful-fs: 4.2.11
 
-  lint-staged@17.1.0:
+  lint-staged@17.2.0:
     dependencies:
       picomatch: 4.0.5
       string-argv: 0.3.2
@@ -1654,52 +1654,52 @@ snapshots:
       picocolors: 1.1.1
       source-map-js: 1.2.1
 
-  prettier-plugin-css-order@2.2.0(postcss@8.5.19)(prettier@3.9.5):
+  prettier-plugin-css-order@2.2.0(postcss@8.5.19)(prettier@3.9.6):
     dependencies:
       css-declaration-sorter: 7.4.0(postcss@8.5.19)
       postcss-less: 6.0.0(postcss@8.5.19)
       postcss-scss: 4.0.9(postcss@8.5.19)
-      prettier: 3.9.5
+      prettier: 3.9.6
     transitivePeerDependencies:
       - postcss
 
-  prettier-plugin-jsdoc@1.8.1(prettier@3.9.5):
+  prettier-plugin-jsdoc@1.8.1(prettier@3.9.6):
     dependencies:
       binary-searching: 2.0.5
       comment-parser: 1.4.7
       mdast-util-from-markdown: 2.0.3
-      prettier: 3.9.5
+      prettier: 3.9.6
     transitivePeerDependencies:
       - supports-color
 
-  prettier-plugin-organize-imports@4.3.0(prettier@3.9.5)(typescript@7.0.2):
+  prettier-plugin-organize-imports@4.3.0(prettier@3.9.6)(typescript@7.0.2):
     dependencies:
-      prettier: 3.9.5
+      prettier: 3.9.6
       typescript: 7.0.2
 
-  prettier-plugin-packagejson@3.0.2(prettier@3.9.5):
+  prettier-plugin-packagejson@3.0.2(prettier@3.9.6):
     dependencies:
       sort-package-json: 3.6.1
     optionalDependencies:
-      prettier: 3.9.5
+      prettier: 3.9.6
 
-  prettier-plugin-svelte@3.0.3(prettier@3.9.5)(svelte@4.2.0):
+  prettier-plugin-svelte@3.0.3(prettier@3.9.6)(svelte@4.2.0):
     dependencies:
-      prettier: 3.9.5
+      prettier: 3.9.6
       svelte: 4.2.0
 
-  prettier-plugin-tailwindcss@0.5.4(prettier-plugin-css-order@2.2.0(postcss@8.5.19)(prettier@3.9.5))(prettier-plugin-jsdoc@1.8.1(prettier@3.9.5))(prettier-plugin-organize-imports@4.3.0(prettier@3.9.5)(typescript@7.0.2))(prettier-plugin-svelte@3.0.3(prettier@3.9.5)(svelte@4.2.0))(prettier@3.9.5):
+  prettier-plugin-tailwindcss@0.5.4(prettier-plugin-css-order@2.2.0(postcss@8.5.19)(prettier@3.9.6))(prettier-plugin-jsdoc@1.8.1(prettier@3.9.6))(prettier-plugin-organize-imports@4.3.0(prettier@3.9.6)(typescript@7.0.2))(prettier-plugin-svelte@3.0.3(prettier@3.9.6)(svelte@4.2.0))(prettier@3.9.6):
     dependencies:
-      prettier: 3.9.5
+      prettier: 3.9.6
     optionalDependencies:
-      prettier-plugin-css-order: 2.2.0(postcss@8.5.19)(prettier@3.9.5)
-      prettier-plugin-jsdoc: 1.8.1(prettier@3.9.5)
-      prettier-plugin-organize-imports: 4.3.0(prettier@3.9.5)(typescript@7.0.2)
-      prettier-plugin-svelte: 3.0.3(prettier@3.9.5)(svelte@4.2.0)
+      prettier-plugin-css-order: 2.2.0(postcss@8.5.19)(prettier@3.9.6)
+      prettier-plugin-jsdoc: 1.8.1(prettier@3.9.6)
+      prettier-plugin-organize-imports: 4.3.0(prettier@3.9.6)(typescript@7.0.2)
+      prettier-plugin-svelte: 3.0.3(prettier@3.9.6)(svelte@4.2.0)
 
   prettier@2.8.8: {}
 
-  prettier@3.9.5: {}
+  prettier@3.9.6: {}
 
   quansync@0.2.11: {}
 

@@ -1,5 +1,11 @@
 # @ubermanu/prettier-config
 
+## 3.5.2
+
+### Patch Changes
+
+- f2e01ee: Update dependencies (postcss 8.5.30, prettier-plugin-jsdoc 1.8.1) and keep typescript on v6, since v7 breaks prettier-plugin-organize-imports
+
 ## 3.5.1
 
 ### Patch Changes
